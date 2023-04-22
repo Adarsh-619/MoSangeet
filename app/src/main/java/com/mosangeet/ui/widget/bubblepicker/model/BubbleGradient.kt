@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.bubblepicker.model
+package com.mosangeet.ui.widget.bubblepicker.model
 
 /**
  * Created by irinagalata on 3/2/17.

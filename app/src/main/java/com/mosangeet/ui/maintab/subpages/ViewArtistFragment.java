@@ -1,12 +1,14 @@
-package com.ldt.musicr.ui.maintab.subpages;
+package com.mosangeet.ui.maintab.subpages;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.Group;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -16,12 +18,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.github.chrisbanes.photoview.PhotoView;
-import com.ldt.musicr.R;
-import com.ldt.musicr.contract.AbsMediaAdapter;
-import com.ldt.musicr.glide.ArtistGlideRequest;
-import com.ldt.musicr.glide.GlideApp;
-import com.ldt.musicr.model.Artist;
-import com.ldt.musicr.ui.maintab.MusicServiceNavigationFragment;
+import com.mosangeet.R;
+import com.mosangeet.contract.AbsMediaAdapter;
+import com.mosangeet.glide.ArtistGlideRequest;
+import com.bumptech.glide.Glide;
+import com.mosangeet.model.Artist;
+import com.mosangeet.ui.maintab.MusicServiceNavigationFragment;
 
 import java.lang.ref.WeakReference;
 
@@ -34,19 +36,23 @@ import butterknife.Unbinder;
 public class ViewArtistFragment extends MusicServiceNavigationFragment {
     private static final String TAG = "ArtistPagerFragment";
     private static final String ARTIST = "artist";
+
     public static ViewArtistFragment newInstance(Artist artist) {
 
         Bundle args = new Bundle();
-        if(artist!=null)
-        args.putParcelable(ARTIST,artist);
+        if (artist != null)
+            args.putParcelable(ARTIST, artist);
 
         ViewArtistFragment fragment = new ViewArtistFragment();
         fragment.setArguments(args);
         return fragment;
     }
-    @BindView(R.id.status_bar) View mStatusBar;
 
-    @BindView(R.id.root) View mRoot;
+    @BindView(R.id.status_bar)
+    View mStatusBar;
+
+    @BindView(R.id.root)
+    View mRoot;
 
     @Override
     public void onSetStatusBarMargin(int value) {
@@ -66,7 +72,8 @@ public class ViewArtistFragment extends MusicServiceNavigationFragment {
     @BindView(R.id.group)
     Group mGroup;
 
-    @BindView(R.id.description) TextView mWiki;
+    @BindView(R.id.description)
+    TextView mWiki;
 
     private boolean mBlockPhotoView = true;
 
@@ -80,7 +87,7 @@ public class ViewArtistFragment extends MusicServiceNavigationFragment {
 
     @OnTouch(R.id.big_behind)
     boolean onTouchBigBehind(View view, MotionEvent event) {
-        if(!mBlockPhotoView) {
+        if (!mBlockPhotoView) {
             return false;
         } else {
             mRoot.onTouchEvent(event);
@@ -88,18 +95,18 @@ public class ViewArtistFragment extends MusicServiceNavigationFragment {
         }
     }
 
-    @BindView(R.id.fullscreen) ImageView mFullScreenButton;
+    @BindView(R.id.fullscreen)
+    ImageView mFullScreenButton;
 
     @OnClick(R.id.fullscreen)
     void fullScreen() {
         mBlockPhotoView = !mBlockPhotoView;
-        if(mBlockPhotoView) {
+        if (mBlockPhotoView) {
             mGroup.setVisibility(View.VISIBLE);
             mBigImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
             mBigImage.setBackgroundResource(android.R.color.transparent);
             mFullScreenButton.setImageResource(R.drawable.fullscreen);
-        }
-        else {
+        } else {
             mGroup.setVisibility(View.GONE);
             mBigImage.setScaleType(ImageView.ScaleType.FIT_CENTER);
             mBigImage.setBackgroundResource(android.R.color.black);
@@ -131,7 +138,7 @@ public class ViewArtistFragment extends MusicServiceNavigationFragment {
     public void onDestroyView() {
         mAdapter.destroy();
 
-        if(mUnbinder!=null) {
+        if (mUnbinder != null) {
             mUnbinder.unbind();
             mUnbinder = null;
         }
@@ -141,7 +148,7 @@ public class ViewArtistFragment extends MusicServiceNavigationFragment {
     @Nullable
     @Override
     protected View onCreateView(LayoutInflater inflater, ViewGroup container) {
-        return inflater.inflate(R.layout.screen_single_artist_primary,container,false);
+        return inflater.inflate(R.layout.screen_single_artist_primary, container, false);
     }
 
     private Unbinder mUnbinder;
@@ -155,33 +162,34 @@ public class ViewArtistFragment extends MusicServiceNavigationFragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view,savedInstanceState);
-        mUnbinder = ButterKnife.bind(this,view);
+        super.onViewCreated(view, savedInstanceState);
+        mUnbinder = ButterKnife.bind(this, view);
 
         Bundle bundle = getArguments();
-        if(bundle!=null) {
+        if (bundle != null) {
             mArtist = bundle.getParcelable(ARTIST);
         }
 
         mRecyclerView.setAdapter(mAdapter);
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false));
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
 
         refreshData();
     }
+
     private void updateSongs() {
-        if(mArtist==null) return;
+        if (mArtist == null) return;
         mAdapter.setData(mArtist.getSongs());
     }
 
     public void refreshData() {
-        if(mArtist==null) return;
+        if (mArtist == null) return;
         mArtistText.setText(mArtist.getName());
-        String bio ="";
-        if(!bio.isEmpty()) bio = ' '+getResources().getString(R.string.middle_dot)+' '+bio;
-        mWiki.setText(mArtist.getSongCount() +" "+getResources().getString(R.string.songs)+bio);
+        String bio = "";
+        if (!bio.isEmpty()) bio = ' ' + getResources().getString(R.string.middle_dot) + ' ' + bio;
+        mWiki.setText(mArtist.getSongCount() + " " + getResources().getString(R.string.songs) + bio);
 
-        if(getContext() !=null) {
-            ArtistGlideRequest.Builder.from(GlideApp.with(getContext()), mArtist)
+        if (getContext() != null) {
+            ArtistGlideRequest.Builder.from(Glide.with(getContext()), mArtist)
                     .requestHighResolutionArt(true)
                     .generateBuilder(getContext())
                     .build()
@@ -195,13 +203,13 @@ public class ViewArtistFragment extends MusicServiceNavigationFragment {
                     .thumbnail(
                             ArtistGlideRequest
                                     .Builder
-                                    .from(GlideApp.with(getContext()), mArtist)
+                                    .from(Glide.with(getContext()), mArtist)
                                     .requestHighResolutionArt(false)
                                     .generateBuilder(getContext())
                                     .build())
                     .into(mBigImage);
         }
-            updateSongs();
+        updateSongs();
 
     }
 
@@ -244,8 +252,9 @@ public class ViewArtistFragment extends MusicServiceNavigationFragment {
         refreshData();
     }
 
-    private static class ArtistInfoTask extends AsyncTask<Void,Void,Void> {
+    private static class ArtistInfoTask extends AsyncTask<Void, Void, Void> {
         private WeakReference<ResultCallback> mCallback;
+
         ArtistInfoTask(ResultCallback callback) {
             mCallback = new WeakReference<>(callback);
         }
@@ -256,7 +265,7 @@ public class ViewArtistFragment extends MusicServiceNavigationFragment {
         }
 
         @Override
-        protected  Void doInBackground(Void... voids) {
+        protected Void doInBackground(Void... voids) {
 
             return null;
         }

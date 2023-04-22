@@ -11,6 +11,8 @@ import com.ldt.musicr.model.Genre;
 import com.ldt.musicr.model.Song;
 import com.ldt.musicr.util.PreferenceUtil;
 import com.ldt.musicr.util.SortOrder;
+import com.mosangeet.model.Genre;
+import com.mosangeet.model.Song;
 
 import java.util.ArrayList;
 

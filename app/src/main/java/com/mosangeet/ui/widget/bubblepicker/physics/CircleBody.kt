@@ -1,9 +1,9 @@
-package com.ldt.musicr.ui.widget.bubblepicker.physics
+package com.mosangeet.ui.widget.bubblepicker.physics
 
 import android.util.Log
 import android.view.animation.Interpolator
 import android.view.animation.OvershootInterpolator
-import com.ldt.musicr.ui.widget.bubblepicker.sqr
+import com.mosangeet.ui.widget.bubblepicker.sqr
 import org.jbox2d.collision.shapes.CircleShape
 import org.jbox2d.common.Vec2
 import org.jbox2d.dynamics.*

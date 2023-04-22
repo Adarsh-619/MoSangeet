@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.bubblepicker.rendering;
+package com.mosangeet.ui.widget.bubblepicker.rendering;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -6,13 +6,13 @@ import android.graphics.Typeface;
 
 import androidx.core.content.ContextCompat;
 
-import com.ldt.musicr.App;
-import com.ldt.musicr.R;
-import com.ldt.musicr.ui.widget.bubblepicker.BubblePickerListener;
-import com.ldt.musicr.ui.widget.bubblepicker.model.BubbleGradient;
-import com.ldt.musicr.ui.widget.bubblepicker.model.PickerItem;
-import com.ldt.musicr.ui.widget.bubblepicker.rendering.Adapter;
-import com.ldt.musicr.ui.widget.bubblepicker.rendering.BubblePicker;
+import com.mosangeet.App;
+import com.mosangeet.R;
+import com.mosangeet.ui.widget.bubblepicker.BubblePickerListener;
+import com.mosangeet.ui.widget.bubblepicker.model.BubbleGradient;
+import com.mosangeet.ui.widget.bubblepicker.model.PickerItem;
+import com.mosangeet.ui.widget.bubblepicker.rendering.Adapter;
+import com.mosangeet.ui.widget.bubblepicker.rendering.BubblePicker;
 
 import org.jetbrains.annotations.NotNull;
 

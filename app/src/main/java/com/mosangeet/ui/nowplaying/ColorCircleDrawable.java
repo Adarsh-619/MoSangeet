@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.nowplaying;
+package com.mosangeet.ui.nowplaying;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;

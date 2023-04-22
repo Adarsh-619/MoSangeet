@@ -11,9 +11,9 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import android.util.AttributeSet;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.util.Tool;
-import com.ldt.musicr.util.BitmapEditor;
+import com.mosangeet.R;
+import com.mosangeet.util.Tool;
+import com.mosangeet.util.BitmapEditor;
 
 public class DarkenAndRoundedBackgroundContraintLayout extends ConstraintLayout implements RoundColorable{
 

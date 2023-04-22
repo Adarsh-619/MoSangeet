@@ -1,6 +1,6 @@
-package com.ldt.musicr.ui.maintab.subpages;
+package com.mosangeet.ui.maintab.subpages;
 
-import com.ldt.musicr.addon.lastfm.rest.model.LastFmArtist;
+import com.mosangeet.addon.lastfm.rest.model.LastFmArtist;
 
 import java.util.ArrayList;
 

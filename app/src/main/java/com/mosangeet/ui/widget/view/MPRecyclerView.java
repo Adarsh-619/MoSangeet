@@ -3,7 +3,7 @@ package com.mosangeet.ui.widget.view;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.ldt.musicr.addon.fastscrollrecyclerview.FastScrollRecyclerView;
+import com.mosangeet.addon.fastscrollrecyclerview.FastScrollRecyclerView;
 
 public class MPRecyclerView extends FastScrollRecyclerView {
     public MPRecyclerView(Context context) {

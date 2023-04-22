@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import java.io.Writer;
 import java.lang.ref.WeakReference;

@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.bubblepicker.exception
+package com.mosangeet.ui.widget.bubblepicker.exception
 
 /**
  * Created by irinagalata on 1/19/17.

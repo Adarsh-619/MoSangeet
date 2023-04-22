@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.maintab.subpages;
+package com.mosangeet.ui.maintab.subpages;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -11,11 +11,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.loader.medialoader.SongLoader;
-import com.ldt.musicr.model.Song;
-import com.ldt.musicr.ui.maintab.MusicServiceNavigationFragment;
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.R;
+import com.mosangeet.loader.medialoader.SongLoader;
+import com.mosangeet.model.Song;
+import com.mosangeet.ui.maintab.MusicServiceNavigationFragment;
+import com.mosangeet.util.Tool;
 
 import java.util.ArrayList;
 import java.util.Random;

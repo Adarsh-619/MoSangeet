@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.rangeseekbar;
+package com.mosangeet.ui.widget.rangeseekbar;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -19,7 +19,7 @@ import androidx.core.content.ContextCompat;
 import android.util.AttributeSet;
 
 
-import com.ldt.musicr.R;
+import com.mosangeet.R;
 
 import java.text.DecimalFormat;
 

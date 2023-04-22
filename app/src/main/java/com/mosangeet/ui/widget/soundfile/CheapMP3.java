@@ -21,7 +21,7 @@ import android.content.res.AssetFileDescriptor;
 import android.net.Uri;
 import android.util.Log;
 
-import com.ldt.musicr.App;
+import com.mosangeet.App;
 
 import java.io.InputStream;
 

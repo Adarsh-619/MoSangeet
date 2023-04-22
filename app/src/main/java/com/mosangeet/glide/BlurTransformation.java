@@ -12,9 +12,10 @@ import android.renderscript.ScriptIntrinsicBlur;
 import androidx.annotation.FloatRange;
 import androidx.annotation.NonNull;
 
+import com.afollestad.materialdialogs.BuildConfig;
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
-import com.mosangeet.BuildConfig;
+//import com.mosangeet.BuildConfig;
 import com.mosangeet.helper.StackBlur;
 import com.mosangeet.util.ImageUtil;
 

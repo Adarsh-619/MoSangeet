@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.playingqueue;
+package com.mosangeet.ui.playingqueue;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -24,17 +24,17 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.contract.AbsMediaAdapter;
-import com.ldt.musicr.model.Song;
-import com.ldt.musicr.service.MusicPlayerRemote;
-import com.ldt.musicr.service.MusicService;
-import com.ldt.musicr.service.MusicServiceEventListener;
-import com.ldt.musicr.ui.AppActivity;
-import com.ldt.musicr.ui.CardLayerController;
-import com.ldt.musicr.ui.floating.LyricFragment;
-import com.ldt.musicr.ui.maintab.CardLayerFragment;
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.R;
+import com.mosangeet.contract.AbsMediaAdapter;
+import com.mosangeet.model.Song;
+import com.mosangeet.service.MusicPlayerRemote;
+import com.mosangeet.service.MusicService;
+import com.mosangeet.service.MusicServiceEventListener;
+import com.mosangeet.ui.AppActivity;
+import com.mosangeet.ui.CardLayerController;
+import com.mosangeet.ui.floating.LyricFragment;
+import com.mosangeet.ui.maintab.CardLayerFragment;
+import com.mosangeet.util.Tool;
 
 import java.util.ArrayList;
 import java.util.List;

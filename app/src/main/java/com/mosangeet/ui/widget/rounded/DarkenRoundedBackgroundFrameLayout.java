@@ -11,8 +11,8 @@ import androidx.core.graphics.ColorUtils;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.ldt.musicr.util.BitmapEditor;
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.util.BitmapEditor;
+import com.mosangeet.util.Tool;
 
 /**
  * Created by trung on 9/30/2017.

@@ -9,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.ui.widget.view.SuccessTickView;
+import com.mosangeet.R;
+import com.mosangeet.ui.widget.view.SuccessTickView;
 import com.tuyenmonkey.mkloader.MKLoader;
 
 import butterknife.BindView;

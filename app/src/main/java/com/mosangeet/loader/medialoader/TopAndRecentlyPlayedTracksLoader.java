@@ -27,6 +27,7 @@ import com.ldt.musicr.model.Song;
 import com.ldt.musicr.provider.HistoryStore;
 import com.ldt.musicr.provider.SongPlayCountStore;
 import com.ldt.musicr.util.PreferenceUtil;
+import com.mosangeet.model.Song;
 
 import java.util.ArrayList;
 

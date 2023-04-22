@@ -1,11 +1,11 @@
-package com.ldt.musicr.ui.maintab.subpages;
+package com.mosangeet.ui.maintab.subpages;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.helper.menu.SongMenuHelper;
-import com.ldt.musicr.ui.maintab.library.song.SongChildAdapter;
-import com.ldt.musicr.ui.bottomsheet.OptionBottomSheet;
+import com.mosangeet.R;
+import com.mosangeet.helper.menu.SongMenuHelper;
+import com.mosangeet.ui.maintab.library.song.SongChildAdapter;
+import com.mosangeet.ui.bottomsheet.OptionBottomSheet;
 
 public class ViewArtistSongAdapter extends SongChildAdapter {
     private static final String TAG = "SongInArtistPagerAdapter";

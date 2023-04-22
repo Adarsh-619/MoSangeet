@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.rangeseekbar;
+package com.mosangeet.ui.widget.rangeseekbar;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,7 +6,7 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.ldt.musicr.R;
+import com.mosangeet.R;
 
 
 /**

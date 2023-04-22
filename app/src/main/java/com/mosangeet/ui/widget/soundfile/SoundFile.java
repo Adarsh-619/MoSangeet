@@ -20,8 +20,8 @@ package com.mosangeet.ui.widget.soundfile;
         import android.provider.MediaStore;
         import android.util.Log;
 
-        import com.ldt.musicr.model.Song;
-        import com.ldt.musicr.ui.widget.avsb.ProgressListener;
+        import com.mosangeet.model.Song;
+        import com.mosangeet.ui.widget.avsb.ProgressListener;
 
         import java.io.File;
         import java.util.ArrayList;

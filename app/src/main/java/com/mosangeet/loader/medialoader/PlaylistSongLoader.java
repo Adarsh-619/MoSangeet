@@ -7,7 +7,7 @@ import android.provider.MediaStore.Audio.AudioColumns;
 import androidx.annotation.NonNull;
 
 
-import com.ldt.musicr.model.PlaylistSong;
+import com.mosangeet.model.PlaylistSong;
 
 import java.util.ArrayList;
 import java.util.List;

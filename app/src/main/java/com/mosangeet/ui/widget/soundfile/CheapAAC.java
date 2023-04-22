@@ -25,7 +25,7 @@ package com.mosangeet.ui.widget.soundfile;
         import android.net.Uri;
         import android.util.Log;
 
-        import com.ldt.musicr.App;
+        import com.mosangeet.App;
 
         import java.io.InputStream;
         import java.util.HashMap;

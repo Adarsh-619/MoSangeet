@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.util.Log;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.model.Playlist;
+import com.mosangeet.R;
+import com.mosangeet.model.Playlist;
 
 import java.util.ArrayList;
 

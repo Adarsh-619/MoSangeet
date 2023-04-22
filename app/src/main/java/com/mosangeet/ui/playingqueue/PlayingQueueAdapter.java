@@ -1,15 +1,15 @@
-package com.ldt.musicr.ui.playingqueue;
+package com.mosangeet.ui.playingqueue;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.ldt.musicr.R;
-import com.ldt.musicr.contract.AbsBindAbleHolder;
-import com.ldt.musicr.contract.AbsSongAdapter;
-import com.ldt.musicr.helper.menu.SongMenuHelper;
-import com.ldt.musicr.ui.bottomsheet.OptionBottomSheet;
+import com.mosangeet.R;
+import com.mosangeet.contract.AbsBindAbleHolder;
+import com.mosangeet.contract.AbsSongAdapter;
+import com.mosangeet.helper.menu.SongMenuHelper;
+import com.mosangeet.ui.bottomsheet.OptionBottomSheet;
 import org.jetbrains.annotations.NotNull;
 
 public class PlayingQueueAdapter extends AbsSongAdapter {

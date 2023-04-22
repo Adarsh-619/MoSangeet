@@ -1,10 +1,10 @@
-package com.ldt.musicr.ui.widget.bubblepicker;
+package com.mosangeet.ui.widget.bubblepicker;
 
 import android.content.Context;
 
-import com.ldt.musicr.ui.widget.bubblepicker.model.PickerItem;
-import com.ldt.musicr.ui.widget.bubblepicker.physics.PhysicsEngine;
-import com.ldt.musicr.ui.widget.bubblepicker.rendering.PickerAdapter;
+import com.mosangeet.ui.widget.bubblepicker.model.PickerItem;
+import com.mosangeet.ui.widget.bubblepicker.physics.PhysicsEngine;
+import com.mosangeet.ui.widget.bubblepicker.rendering.PickerAdapter;
 
 import java.util.Random;
 

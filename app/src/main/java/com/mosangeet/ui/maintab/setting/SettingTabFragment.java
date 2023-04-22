@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.maintab.setting;
+package com.mosangeet.ui.maintab.setting;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,18 +16,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.ldt.musicr.App;
-import com.ldt.musicr.R;
-import com.ldt.musicr.common.AppConfig;
-import com.ldt.musicr.helper.LocaleHelper;
-import com.ldt.musicr.helper.extension.GeneralsKt;
-import com.ldt.musicr.notification.EventKey;
-import com.ldt.musicr.ui.AppActivity;
-import com.ldt.musicr.ui.maintab.MusicServiceNavigationFragment;
-import com.ldt.musicr.ui.maintab.subpages.MoreOptionFragment;
-import com.ldt.musicr.ui.widget.rangeseekbar.OnRangeChangedListener;
-import com.ldt.musicr.ui.widget.rangeseekbar.RangeSeekBar;
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.App;
+import com.mosangeet.R;
+import com.mosangeet.common.AppConfig;
+import com.mosangeet.helper.LocaleHelper;
+import com.mosangeet.helper.extension.GeneralsKt;
+import com.mosangeet.notification.EventKey;
+import com.mosangeet.ui.AppActivity;
+import com.mosangeet.ui.maintab.MusicServiceNavigationFragment;
+import com.mosangeet.ui.maintab.subpages.MoreOptionFragment;
+import com.mosangeet.ui.widget.rangeseekbar.OnRangeChangedListener;
+import com.mosangeet.ui.widget.rangeseekbar.RangeSeekBar;
+import com.mosangeet.util.Tool;
 import com.zalo.gitlabmobile.notification.MessageEvent;
 
 import org.greenrobot.eventbus.EventBus;

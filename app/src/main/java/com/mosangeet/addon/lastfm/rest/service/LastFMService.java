@@ -3,8 +3,8 @@ package com.mosangeet.addon.lastfm.rest.service;
 import androidx.annotation.Nullable;
 
 
-import com.ldt.musicr.addon.lastfm.rest.model.LastFmAlbum;
-import com.ldt.musicr.addon.lastfm.rest.model.LastFmArtist;
+import com.mosangeet.addon.lastfm.rest.model.LastFmAlbum;
+import com.mosangeet.addon.lastfm.rest.model.LastFmArtist;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

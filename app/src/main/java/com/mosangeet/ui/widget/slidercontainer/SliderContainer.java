@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.slidercontainer;
+package com.mosangeet.ui.widget.slidercontainer;
 
 import android.content.Context;
 import android.graphics.Point;

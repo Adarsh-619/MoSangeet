@@ -1,4 +1,4 @@
-package com.ldt.musicr.common
+package com.mosangeet.common
 
 import com.mosangeet.helper.extension.post
 import com.mosangeet.notification.EventKey

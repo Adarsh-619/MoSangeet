@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.viewpager
+package com.mosangeet.ui.widget.viewpager
 
 import android.content.Context
 import android.view.animation.DecelerateInterpolator

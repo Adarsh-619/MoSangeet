@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.rangeseekbar;
+package com.mosangeet.ui.widget.rangeseekbar;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,9 +11,9 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.ldt.musicr.R;
+import com.mosangeet.R;
 
-import static com.ldt.musicr.ui.widget.rangeseekbar.SeekBar.INDICATOR_MODE_ALWAYS_SHOW;
+import static com.mosangeet.ui.widget.rangeseekbar.SeekBar.INDICATOR_MODE_ALWAYS_SHOW;
 
 public class RangeSeekBar extends View {
 

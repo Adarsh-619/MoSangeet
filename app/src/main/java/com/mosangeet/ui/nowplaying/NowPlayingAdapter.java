@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.nowplaying;
+package com.mosangeet.ui.nowplaying;
 
 import android.content.Context;
 import androidx.annotation.NonNull;
@@ -9,15 +9,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.common.MediaManager;
-import com.ldt.musicr.glide.ArtistGlideRequest;
-import com.ldt.musicr.glide.GlideApp;
-import com.ldt.musicr.loader.medialoader.ArtistLoader;
-import com.ldt.musicr.model.Artist;
-import com.ldt.musicr.model.Song;
-import com.ldt.musicr.util.Tool;
-import com.ldt.musicr.utils.ArtworkUtils;
+import com.mosangeet.R;
+import com.mosangeet.common.MediaManager;
+import com.mosangeet.glide.ArtistGlideRequest;
+import com.bumptech.glide.Glide;
+import com.mosangeet.loader.medialoader.ArtistLoader;
+import com.mosangeet.model.Artist;
+import com.mosangeet.model.Song;
+import com.mosangeet.util.Tool;
+import com.mosangeet.utils.ArtworkUtils;
 import com.squareup.picasso.Callback;
 
 import java.util.ArrayList;
@@ -98,8 +98,8 @@ public class NowPlayingAdapter extends RecyclerView.Adapter<NowPlayingAdapter.It
                     .override(screen[1])
                     .placeholder(R.drawable.speaker2)
                     .error(
-                            ArtistGlideRequest.Builder.from(GlideApp.with(mContext), artist).requestHighResolutionArt(true).whichImage(1).generateBuilder(mContext).build()
-                                    .error(ArtistGlideRequest.Builder.from(GlideApp.with(mContext),artist).requestHighResolutionArt(false).whichImage(1).generateBuilder(mContext).build().error(R.drawable.speaker2)
+                            ArtistGlideRequest.Builder.from(Glide.with(mContext), artist).requestHighResolutionArt(true).whichImage(1).generateBuilder(mContext).build()
+                                    .error(ArtistGlideRequest.Builder.from(Glide.with(mContext),artist).requestHighResolutionArt(false).whichImage(1).generateBuilder(mContext).build().error(R.drawable.speaker2)
                     ))
                     .into(mImage);
      /*       ArtistGlideRequest.Builder.from(GlideApp.with(getContext()), mArtist)

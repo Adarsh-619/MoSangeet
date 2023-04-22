@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -13,7 +13,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.ldt.musicr.R;
+import com.mosangeet.R;
 
 
 public class CircularPlayPauseProgressBar extends View {

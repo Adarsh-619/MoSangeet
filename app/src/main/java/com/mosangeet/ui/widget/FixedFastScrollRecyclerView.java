@@ -1,9 +1,9 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.ldt.musicr.addon.fastscrollrecyclerview.FastScrollRecyclerView;
+import com.mosangeet.addon.fastscrollrecyclerview.FastScrollRecyclerView;
 
 public class FixedFastScrollRecyclerView extends FastScrollRecyclerView {
     public FixedFastScrollRecyclerView(Context context) {

@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 /**
  * Created by trung on 11/10/2017.

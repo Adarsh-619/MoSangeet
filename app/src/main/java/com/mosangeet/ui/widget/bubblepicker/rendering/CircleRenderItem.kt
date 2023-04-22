@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.bubblepicker.rendering
+package com.mosangeet.ui.widget.bubblepicker.rendering
 
 
 import android.graphics.*
@@ -9,11 +9,11 @@ import android.opengl.Matrix
 import android.text.Layout
 import android.text.StaticLayout
 import android.text.TextPaint
-import com.ldt.musicr.ui.widget.bubblepicker.model.BubbleGradient
-import com.ldt.musicr.ui.widget.bubblepicker.model.PickerItem
-import com.ldt.musicr.ui.widget.bubblepicker.physics.CircleBody
-import com.ldt.musicr.ui.widget.bubblepicker.rendering.BubbleShader.U_MATRIX
-import com.ldt.musicr.ui.widget.bubblepicker.toTexture
+import com.mosangeet.ui.widget.bubblepicker.model.BubbleGradient
+import com.mosangeet.ui.widget.bubblepicker.model.PickerItem
+import com.mosangeet.ui.widget.bubblepicker.physics.CircleBody
+import com.mosangeet.ui.widget.bubblepicker.rendering.BubbleShader.U_MATRIX
+import com.mosangeet.ui.widget.bubblepicker.toTexture
 import org.jbox2d.common.Vec2
 
 /**

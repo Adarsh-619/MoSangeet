@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ScrollView;
 
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.util.Tool;
 
 import java.util.ArrayList;
 

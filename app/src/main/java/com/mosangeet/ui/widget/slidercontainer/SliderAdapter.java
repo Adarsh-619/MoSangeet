@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.slidercontainer;
+package com.mosangeet.ui.widget.slidercontainer;
 
 import android.content.Context;
 import android.util.Log;
@@ -10,9 +10,9 @@ import android.widget.ImageView;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.bumptech.glide.Glide;
-import com.ldt.musicr.R;
-import com.ldt.musicr.model.Song;
-import com.ldt.musicr.util.Util;
+import com.mosangeet.R;
+import com.mosangeet.model.Song;
+import com.mosangeet.util.Util;
 
 import org.jetbrains.annotations.NotNull;
 

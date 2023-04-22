@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.fragmentnavigationcontroller;
+package com.mosangeet.ui.widget.fragmentnavigationcontroller;
 
 
 import android.animation.Animator;
@@ -13,8 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-import com.ldt.musicr.ui.AppActivity;
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.ui.AppActivity;
+import com.mosangeet.util.Tool;
 
 import java.lang.ref.WeakReference;
 

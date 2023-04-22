@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.maintab;
+package com.mosangeet.ui.maintab;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 
-import com.ldt.musicr.service.MusicServiceEventListener;
-import com.ldt.musicr.ui.MusicServiceActivity;
-import com.ldt.musicr.ui.widget.fragmentnavigationcontroller.NavigationFragment;
-import com.ldt.musicr.ui.widget.fragmentnavigationcontroller.PresentStyle;
+import com.mosangeet.service.MusicServiceEventListener;
+import com.mosangeet.ui.MusicServiceActivity;
+import com.mosangeet.ui.widget.fragmentnavigationcontroller.NavigationFragment;
+import com.mosangeet.ui.widget.fragmentnavigationcontroller.PresentStyle;
 
 public abstract class MusicServiceNavigationFragment extends NavigationFragment implements MusicServiceEventListener {
     @Override

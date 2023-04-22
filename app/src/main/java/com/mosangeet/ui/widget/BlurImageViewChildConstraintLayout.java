@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,8 +14,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.ImageView;
 
-import com.ldt.musicr.util.BitmapEditor;
-import com.ldt.musicr.R;
+import com.mosangeet.util.BitmapEditor;
+import com.mosangeet.R;
 
 public class BlurImageViewChildConstraintLayout extends ConstraintLayout {
     private static final String TAG = "DeepShadowConstraint";

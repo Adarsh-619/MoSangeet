@@ -18,6 +18,7 @@ import com.ldt.musicr.App;
 import com.ldt.musicr.model.Song;
 import com.ldt.musicr.provider.BlacklistStore;
 import com.ldt.musicr.util.PreferenceUtil;
+import com.mosangeet.model.Song;
 
 import org.jaudiotagger.audio.AudioFile;
 import org.jaudiotagger.audio.AudioFileIO;

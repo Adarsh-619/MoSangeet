@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 
 import com.ldt.musicr.model.Song;
 import com.ldt.musicr.util.PreferenceUtil;
+import com.mosangeet.model.Song;
 
 import java.util.ArrayList;
 

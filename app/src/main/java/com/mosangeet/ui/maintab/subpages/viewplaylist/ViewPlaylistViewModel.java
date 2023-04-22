@@ -1,22 +1,22 @@
-package com.ldt.musicr.ui.maintab.subpages.viewplaylist;
+package com.mosangeet.ui.maintab.subpages.viewplaylist;
 
 import android.graphics.Bitmap;
 import android.text.TextUtils;
 
 import androidx.lifecycle.MutableLiveData;
 
-import com.ldt.musicr.App;
-import com.ldt.musicr.R;
-import com.ldt.musicr.helper.AppExecutors;
-import com.ldt.musicr.helper.Reliable;
-import com.ldt.musicr.helper.ReliableEvent;
-import com.ldt.musicr.model.Playlist;
-import com.ldt.musicr.model.Song;
-import com.ldt.musicr.ui.base.MPViewModel;
-import com.ldt.musicr.ui.bottomsheet.SortOrderBottomSheet;
-import com.ldt.musicr.util.PlaylistArtworkGenerator;
-import com.ldt.musicr.util.MusicUtil;
-import com.ldt.musicr.util.Util;
+import com.mosangeet.App;
+import com.mosangeet.R;
+import com.mosangeet.helper.AppExecutors;
+import com.mosangeet.helper.Reliable;
+import com.mosangeet.helper.ReliableEvent;
+import com.mosangeet.model.Playlist;
+import com.mosangeet.model.Song;
+import com.mosangeet.ui.base.MPViewModel;
+import com.mosangeet.ui.bottomsheet.SortOrderBottomSheet;
+import com.mosangeet.util.PlaylistArtworkGenerator;
+import com.mosangeet.util.MusicUtil;
+import com.mosangeet.util.Util;
 
 import java.util.ArrayList;
 import java.util.List;

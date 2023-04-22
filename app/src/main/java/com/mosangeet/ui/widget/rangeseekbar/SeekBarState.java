@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.rangeseekbar;
+package com.mosangeet.ui.widget.rangeseekbar;
 
 /**
  * ================================================

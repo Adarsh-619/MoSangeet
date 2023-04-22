@@ -1,7 +1,7 @@
-package com.ldt.musicr.ui.widget.fragmentnavigationcontroller;
+package com.mosangeet.ui.widget.fragmentnavigationcontroller;
 
 
-import com.ldt.musicr.R;
+import com.mosangeet.R;
 
 /**
  * Created by burt on 2016. 5. 26..

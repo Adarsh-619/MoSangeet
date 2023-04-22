@@ -12,8 +12,8 @@ import android.util.Log;
 import android.view.TextureView;
 
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.ui.widget.bubblepicker.model.PickerItem;
+import com.mosangeet.R;
+import com.mosangeet.ui.widget.bubblepicker.model.PickerItem;
 
 import java.util.ArrayList;
 import java.util.concurrent.Executors;

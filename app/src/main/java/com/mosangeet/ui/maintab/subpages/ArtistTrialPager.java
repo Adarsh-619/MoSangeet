@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.maintab.subpages;
+package com.mosangeet.ui.maintab.subpages;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -13,13 +13,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.ldt.musicr.R;
-import com.ldt.musicr.addon.lastfm.rest.LastFMRestClient;
-import com.ldt.musicr.addon.lastfm.rest.model.LastFmArtist;
-import com.ldt.musicr.model.Artist;
-import com.ldt.musicr.ui.widget.fragmentnavigationcontroller.NavigationFragment;
-import com.ldt.musicr.util.LastFMUtil;
-import com.ldt.musicr.util.MusicUtil;
+import com.mosangeet.R;
+import com.mosangeet.addon.lastfm.rest.LastFMRestClient;
+import com.mosangeet.addon.lastfm.rest.model.LastFmArtist;
+import com.mosangeet.model.Artist;
+import com.mosangeet.ui.widget.fragmentnavigationcontroller.NavigationFragment;
+import com.mosangeet.util.LastFMUtil;
+import com.mosangeet.util.MusicUtil;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

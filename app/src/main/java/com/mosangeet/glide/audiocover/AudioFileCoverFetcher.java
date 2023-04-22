@@ -16,6 +16,7 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 
 public class AudioFileCoverFetcher implements DataFetcher<InputStream> {
@@ -41,7 +42,11 @@ public class AudioFileCoverFetcher implements DataFetcher<InputStream> {
         } catch (FileNotFoundException e) {
             callback.onLoadFailed(e);
         } finally {
-            retriever.release();
+            try {
+                retriever.release();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 

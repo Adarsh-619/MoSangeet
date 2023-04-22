@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.bubblepicker.model
+package com.mosangeet.ui.widget.bubblepicker.model
 
 import android.graphics.Color
 import androidx.annotation.ColorInt

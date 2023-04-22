@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -13,8 +13,8 @@ import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.ldt.musicr.util.InterpolatorUtil;
-import com.ldt.musicr.R;
+import com.mosangeet.util.InterpolatorUtil;
+import com.mosangeet.R;
 
 /**
  * Created by trung on 9/27/2017.

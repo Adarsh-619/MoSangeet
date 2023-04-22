@@ -24,7 +24,7 @@ import com.kabouzeid.appthemehelper.util.MaterialValueHelper;
 
 import com.mosangeet.R;
 import com.mosangeet.glide.SongGlideRequest;
-import com.mosangeet.glide.GlideApp;
+import com.bumptech.glide.Glide;
 import com.mosangeet.model.Song;
 import com.mosangeet.service.MusicService;
 import com.mosangeet.ui.AppActivity;
@@ -90,8 +90,8 @@ public class PlayingNotificationImpl extends PlayingNotification {
         service.runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                GlideApp.with(service).clear(target);
-                target = SongGlideRequest.Builder.from(GlideApp.with(service),song)
+                Glide.with(service).clear(target);
+                target = SongGlideRequest.Builder.from(Glide.with(service),song)
                         .checkIgnoreMediaStore(service)
                         .generatePalette(service)
                         .build()

@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,10 +10,10 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.ui.widget.rounded.RoundColorable;
-import com.ldt.musicr.util.BitmapEditor;
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.R;
+import com.mosangeet.ui.widget.rounded.RoundColorable;
+import com.mosangeet.util.BitmapEditor;
+import com.mosangeet.util.Tool;
 
 /**
  * Created by trung on 9/30/2017.

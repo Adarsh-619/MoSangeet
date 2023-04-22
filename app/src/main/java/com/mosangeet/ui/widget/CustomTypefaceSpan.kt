@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget
+package com.mosangeet.ui.widget
 
 import android.graphics.Paint
 import android.graphics.Typeface

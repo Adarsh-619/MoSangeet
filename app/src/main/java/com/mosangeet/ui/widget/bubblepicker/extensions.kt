@@ -1,10 +1,10 @@
-package com.ldt.musicr.ui.widget.bubblepicker
+package com.mosangeet.ui.widget.bubblepicker
 
 import android.graphics.Bitmap
 import android.opengl.GLES20.*
 import android.opengl.GLUtils
-import com.ldt.musicr.ui.widget.bubblepicker.Constant.FLOAT_SIZE
-import com.ldt.musicr.ui.widget.bubblepicker.Constant.TEXTURE_VERTICES
+import com.mosangeet.ui.widget.bubblepicker.Constant.FLOAT_SIZE
+import com.mosangeet.ui.widget.bubblepicker.Constant.TEXTURE_VERTICES
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.nio.FloatBuffer

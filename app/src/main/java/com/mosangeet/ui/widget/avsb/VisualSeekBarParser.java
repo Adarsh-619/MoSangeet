@@ -3,9 +3,9 @@ package com.mosangeet.ui.widget.avsb;
 import androidx.annotation.NonNull;
 import androidx.annotation.WorkerThread;
 
-import com.ldt.musicr.interactors.AppExecutors;
-import com.ldt.musicr.interactors.MainThreadUtils;
-import com.ldt.musicr.model.Song;
+import com.mosangeet.interactors.AppExecutors;
+import com.mosangeet.interactors.MainThreadUtils;
+import com.mosangeet.model.Song;
 
 import java.io.FileNotFoundException;
 
@@ -15,7 +15,7 @@ class VisualSeekBarParser implements ProgressListener {
     /* Parser response message: use to check the result */
     private String mMessage = "";
 
-    protected com.ldt.musicr.ui.widget.soundfile.SoundFile mSoundFile;
+    protected com.mosangeet.ui.widget.soundfile.SoundFile mSoundFile;
     protected boolean mInitialized;
     protected float range;
     protected float scaleFactor;
@@ -75,7 +75,7 @@ class VisualSeekBarParser implements ProgressListener {
                     /* notify the seek bar that parser is starting to parse a file */
                     MainThreadUtils.postOnUiThread(mSeekBar::startParsingFile);
                     try {
-                        mSoundFile = com.ldt.musicr.ui.widget.soundfile.SoundFile.create(song, this);
+                        mSoundFile = com.mosangeet.ui.widget.soundfile.SoundFile.create(song, this);
                         //Thread.sleep(2500);
                     } catch (FileNotFoundException e) {
                         mMessage = "File is not found";

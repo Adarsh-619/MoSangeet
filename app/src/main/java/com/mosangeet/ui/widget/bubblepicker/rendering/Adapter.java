@@ -1,6 +1,6 @@
 package com.mosangeet.ui.widget.bubblepicker.rendering;
 
-import com.ldt.musicr.ui.widget.bubblepicker.model.PickerItem;
+import com.mosangeet.ui.widget.bubblepicker.model.PickerItem;
 
 public abstract class Adapter implements Decorator  {
     public BubblePicker getBubblePicker() {

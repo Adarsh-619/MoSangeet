@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.nowplaying;
+package com.mosangeet.ui.nowplaying;
 
 import android.graphics.Color;
 import androidx.annotation.NonNull;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 
-import com.ldt.musicr.R;
+import com.mosangeet.R;
 
 import java.util.ArrayList;
 

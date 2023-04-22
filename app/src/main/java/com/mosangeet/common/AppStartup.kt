@@ -1,6 +1,7 @@
-package com.ldt.musicr.common
+package com.mosangeet.common
 
 import androidx.annotation.WorkerThread
+import com.mosangeet.common.MediaManager
 import com.mosangeet.interactors.AppExecutors
 
 object AppStartup {

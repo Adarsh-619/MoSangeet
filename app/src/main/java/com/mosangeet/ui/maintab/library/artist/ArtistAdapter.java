@@ -27,7 +27,7 @@ import com.mosangeet.R;
 import com.mosangeet.contract.AbsBindAbleHolder;
 import com.mosangeet.contract.AbsMediaAdapter;
 import com.mosangeet.glide.ArtistGlideRequest;
-import com.mosangeet.glide.GlideApp;
+import com.bumptech.glide.Glide;
 import com.mosangeet.helper.menu.MenuHelper;
 import com.mosangeet.loader.medialoader.GenreLoader;
 import com.mosangeet.model.Artist;
@@ -227,7 +227,7 @@ public class ArtistAdapter extends AbsMediaAdapter<AbsBindAbleHolder, Artist> im
                artistTemp = new Artist(artist.id,artists[0].replace(",",""),artist.albumCount,artist.songCount);
            else artistTemp = artist;*/
 
-            ArtistGlideRequest.Builder.from(GlideApp.with(getContext()), artist)
+            ArtistGlideRequest.Builder.from(Glide.with(getContext()), artist)
                     // .tryToLoadOriginal(true)
                     .generateBuilder(getContext())
                     .build()

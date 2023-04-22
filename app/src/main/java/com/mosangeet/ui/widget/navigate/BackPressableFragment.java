@@ -11,11 +11,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.ui.widget.fragmentnavigationcontroller.NavigationControllerFragment;
-import com.ldt.musicr.ui.widget.fragmentnavigationcontroller.NavigationFragment;
+import com.mosangeet.R;
+import com.mosangeet.ui.widget.fragmentnavigationcontroller.NavigationControllerFragment;
+import com.mosangeet.ui.widget.fragmentnavigationcontroller.NavigationFragment;
 
-import static com.ldt.musicr.ui.widget.fragmentnavigationcontroller.NavigationFragment.PRESENT_STYLE_DEFAULT;
+import static com.mosangeet.ui.widget.fragmentnavigationcontroller.NavigationFragment.PRESENT_STYLE_DEFAULT;
 
 
 public class BackPressableFragment extends Fragment implements BackPressable {

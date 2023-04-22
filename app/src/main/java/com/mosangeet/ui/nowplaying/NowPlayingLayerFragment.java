@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.nowplaying;
+package com.mosangeet.ui.nowplaying;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -32,22 +32,22 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.helper.menu.SongMenuHelper;
-import com.ldt.musicr.loader.medialoader.SongLoader;
-import com.ldt.musicr.service.MusicPlayerRemote;
-import com.ldt.musicr.service.MusicServiceEventListener;
-import com.ldt.musicr.ui.AppActivity;
-import com.ldt.musicr.ui.CardLayerController;
-import com.ldt.musicr.ui.MusicServiceActivity;
-import com.ldt.musicr.ui.maintab.CardLayerFragment;
+import com.mosangeet.R;
+import com.mosangeet.helper.menu.SongMenuHelper;
+import com.mosangeet.loader.medialoader.SongLoader;
+import com.mosangeet.service.MusicPlayerRemote;
+import com.mosangeet.service.MusicServiceEventListener;
+import com.mosangeet.ui.AppActivity;
+import com.mosangeet.ui.CardLayerController;
+import com.mosangeet.ui.MusicServiceActivity;
+import com.mosangeet.ui.maintab.CardLayerFragment;
 
-import com.ldt.musicr.model.Song;
+import com.mosangeet.model.Song;
 
-import com.ldt.musicr.ui.bottomsheet.OptionBottomSheet;
-import com.ldt.musicr.ui.widget.avsb.AudioVisualSeekBar;
-import com.ldt.musicr.util.SortOrder;
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.ui.bottomsheet.OptionBottomSheet;
+import com.mosangeet.ui.widget.avsb.AudioVisualSeekBar;
+import com.mosangeet.util.SortOrder;
+import com.mosangeet.util.Tool;
 
 import java.util.ArrayList;
 

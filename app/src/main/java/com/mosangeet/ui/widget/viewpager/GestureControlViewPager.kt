@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.viewpager
+package com.mosangeet.ui.widget.viewpager
 
 import android.annotation.SuppressLint
 import android.content.Context

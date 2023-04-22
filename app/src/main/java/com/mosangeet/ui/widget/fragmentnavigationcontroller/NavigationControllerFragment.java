@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.fragmentnavigationcontroller;
+package com.mosangeet.ui.widget.fragmentnavigationcontroller;
 
 import android.animation.TimeInterpolator;
 

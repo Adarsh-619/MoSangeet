@@ -41,8 +41,8 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 
-import com.ldt.musicr.App;
-import com.ldt.musicr.model.Song;
+import com.mosangeet.App;
+import com.mosangeet.model.Song;
 
 public class SoundFile {
     private ProgressListener mProgressListener = null;

@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.maintab.subpages.viewplaylist;
+package com.mosangeet.ui.maintab.subpages.viewplaylist;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,10 +9,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.helper.EventListener;
-import com.ldt.musicr.helper.Reliable;
-import com.ldt.musicr.helper.ReliableEvent;
+import com.mosangeet.R;
+import com.mosangeet.helper.EventListener;
+import com.mosangeet.helper.Reliable;
+import com.mosangeet.helper.ReliableEvent;
 
 import java.util.List;
 

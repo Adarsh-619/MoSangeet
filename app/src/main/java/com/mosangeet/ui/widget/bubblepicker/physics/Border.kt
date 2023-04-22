@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.bubblepicker.physics
+package com.mosangeet.ui.widget.bubblepicker.physics
 
 import org.jbox2d.collision.shapes.PolygonShape
 import org.jbox2d.common.Vec2

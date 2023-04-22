@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.slidercontainer;
+package com.mosangeet.ui.widget.slidercontainer;
 
 import androidx.viewpager.widget.ViewPager;
 import android.view.View;

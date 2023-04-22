@@ -22,7 +22,7 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.mosangeet.R;
-import com.mosangeet.glide.GlideApp;
+import com.bumptech.glide.Glide;
 import com.mosangeet.glide.SongGlideRequest;
 import com.mosangeet.helper.songpreview.PreviewSong;
 import com.mosangeet.helper.songpreview.SongPreviewController;
@@ -275,7 +275,7 @@ public abstract class AbsSongAdapter extends AbsMediaAdapter<AbsBindAbleHolder, 
             mTitle.setText(song.title);
             mDescription.setText(song.artistName);
 
-            SongGlideRequest.Builder.from(GlideApp.with(getContext()), song)
+            SongGlideRequest.Builder.from(Glide.with(getContext()), song)
                     .ignoreMediaStore(false)
                     .generatePalette(getContext()).build()
                     .listener(new RequestListener<Bitmap>() {

@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
 import com.mosangeet.glide.ArtistGlideRequest;
-import com.mosangeet.glide.GlideApp;
+import com.bumptech.glide.Glide;
 import com.mosangeet.model.Artist;
 import com.mosangeet.ui.widget.bubblepicker.model.PickerItem;
 import com.mosangeet.ui.widget.bubblepicker.physics.PhysicsEngine;
@@ -27,7 +27,7 @@ public class ArtistPickerAdapter extends PickerAdapter<Artist> {
         item.setTitle(artist.getName());
         item.setRadiusUnit(PhysicsEngine.INSTANCE.interpolate(1,2f,((float) artist.getSongCount())/getItemCount()));
         // Glide
-        ArtistGlideRequest.Builder.from(GlideApp.with(mContext), artist)
+        ArtistGlideRequest.Builder.from(Glide.with(mContext), artist)
                 // .tryToLoadOriginal(true)
                 .generateBuilder(mContext)
                 .buildRequestDrawable()

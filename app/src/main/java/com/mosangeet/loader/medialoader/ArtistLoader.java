@@ -10,8 +10,10 @@ import com.ldt.musicr.model.Album;
 import com.ldt.musicr.model.Artist;
 import com.ldt.musicr.model.Song;
 import com.ldt.musicr.util.PreferenceUtil;
+import com.mosangeet.model.Artist;
 
 import java.util.ArrayList;
+import java.util.List;
 
 
 public class ArtistLoader {
@@ -20,7 +22,7 @@ public class ArtistLoader {
     }
 
     @NonNull
-    public static ArrayList<Artist> getAllArtists(@NonNull final Context context) {
+    public static List<Artist> getAllArtists(@NonNull final Context context) {
         ArrayList<Song> songs = SongLoader.getSongs(SongLoader.makeSongCursor(
                 context,
                 null,

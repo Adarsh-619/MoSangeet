@@ -1,7 +1,7 @@
-package com.ldt.musicr.ui.widget.bubblepicker.physics
+package com.mosangeet.ui.widget.bubblepicker.physics
 
 import android.util.Log
-import com.ldt.musicr.ui.widget.bubblepicker.model.PickerItem
+import com.mosangeet.ui.widget.bubblepicker.model.PickerItem
 import org.jbox2d.common.Vec2
 import org.jbox2d.dynamics.Body
 import org.jbox2d.dynamics.World

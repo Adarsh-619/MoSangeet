@@ -1,6 +1,6 @@
-package com.ldt.musicr.ui.widget.bubblepicker
+package com.mosangeet.ui.widget.bubblepicker
 
-import com.ldt.musicr.ui.widget.bubblepicker.model.PickerItem
+import com.mosangeet.ui.widget.bubblepicker.model.PickerItem
 
 /**
  * Created by irinagalata on 3/6/17.

@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.maintab.subpages.viewplaylist;
+package com.mosangeet.ui.maintab.subpages.viewplaylist;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -23,22 +23,22 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import com.ldt.musicr.App;
-import com.ldt.musicr.contract.AbsMediaAdapter;
-import com.ldt.musicr.helper.EventListener;
-import com.ldt.musicr.helper.Reliable;
-import com.ldt.musicr.helper.ReliableEvent;
-import com.ldt.musicr.helper.menu.MenuHelper;
+import com.mosangeet.App;
+import com.mosangeet.contract.AbsMediaAdapter;
+import com.mosangeet.helper.EventListener;
+import com.mosangeet.helper.Reliable;
+import com.mosangeet.helper.ReliableEvent;
+import com.mosangeet.helper.menu.MenuHelper;
 
-import com.ldt.musicr.ui.base.MPViewModel;
-import com.ldt.musicr.ui.maintab.MusicServiceNavigationFragment;
-import com.ldt.musicr.ui.maintab.library.song.SongChildAdapter;
-import com.ldt.musicr.ui.bottomsheet.OptionBottomSheet;
-import com.ldt.musicr.ui.bottomsheet.SortOrderBottomSheet;
-import com.ldt.musicr.ui.widget.fragmentnavigationcontroller.PresentStyle;
-import com.ldt.musicr.R;
+import com.mosangeet.ui.base.MPViewModel;
+import com.mosangeet.ui.maintab.MusicServiceNavigationFragment;
+import com.mosangeet.ui.maintab.library.song.SongChildAdapter;
+import com.mosangeet.ui.bottomsheet.OptionBottomSheet;
+import com.mosangeet.ui.bottomsheet.SortOrderBottomSheet;
+import com.mosangeet.ui.widget.fragmentnavigationcontroller.PresentStyle;
+import com.mosangeet.R;
 
-import com.ldt.musicr.model.Playlist;
+import com.mosangeet.model.Playlist;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 
-import com.ldt.musicr.R;
+import com.mosangeet.R;
 
 public class RoundSeeThroughTextView extends SeeThroughTranslucentTextView {
     private static final String TAG = "RoundSeeThroughTextView";

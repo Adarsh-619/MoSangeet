@@ -1,9 +1,9 @@
-package com.ldt.musicr.ui.widget.bubblepicker.model
+package com.mosangeet.ui.widget.bubblepicker.model
 
 import android.graphics.Typeface
 import android.graphics.drawable.Drawable
 import androidx.annotation.ColorInt
-import com.ldt.musicr.ui.widget.bubblepicker.rendering.CircleRenderItem
+import com.mosangeet.ui.widget.bubblepicker.rendering.CircleRenderItem
 
 /**
  * Created by irinagalata on 1/19/17.

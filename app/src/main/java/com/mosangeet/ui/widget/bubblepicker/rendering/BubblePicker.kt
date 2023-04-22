@@ -1,14 +1,14 @@
-package com.ldt.musicr.ui.widget.bubblepicker.rendering
+package com.mosangeet.ui.widget.bubblepicker.rendering
 
 import android.content.Context
 import androidx.annotation.ColorInt
 import android.util.AttributeSet
 import android.view.MotionEvent
-import com.ldt.musicr.R
-import com.ldt.musicr.ui.widget.GLTextureView
-import com.ldt.musicr.ui.widget.bubblepicker.BubblePickerListener
-import com.ldt.musicr.ui.widget.bubblepicker.model.Color
-import com.ldt.musicr.ui.widget.bubblepicker.model.PickerItem
+import com.mosangeet.R
+import com.mosangeet.ui.widget.GLTextureView
+import com.mosangeet.ui.widget.bubblepicker.BubblePickerListener
+import com.mosangeet.ui.widget.bubblepicker.model.Color
+import com.mosangeet.ui.widget.bubblepicker.model.PickerItem
 
 /**
  * Created by irinagalata on 1/19/17.

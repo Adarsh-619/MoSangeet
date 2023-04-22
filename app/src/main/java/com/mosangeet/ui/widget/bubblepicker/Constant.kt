@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget.bubblepicker
+package com.mosangeet.ui.widget.bubblepicker
 
 object Constant {
 

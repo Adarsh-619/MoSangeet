@@ -1,11 +1,11 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
 
-import com.ldt.musicr.R;
+import com.mosangeet.R;
 
 import java.lang.ref.WeakReference;
 

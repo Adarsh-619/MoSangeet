@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.maintab;
+package com.mosangeet.ui.maintab;
 
 import android.content.Context;
 
@@ -7,11 +7,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.ui.maintab.feature.FeatureTabFragment;
-import com.ldt.musicr.ui.maintab.library.LibraryTabFragment;
-import com.ldt.musicr.ui.maintab.setting.SettingTabFragment;
-import com.ldt.musicr.ui.widget.navigate.BackPressableFragment;
+import com.mosangeet.R;
+import com.mosangeet.ui.maintab.feature.FeatureTabFragment;
+import com.mosangeet.ui.maintab.library.LibraryTabFragment;
+import com.mosangeet.ui.maintab.setting.SettingTabFragment;
+import com.mosangeet.ui.widget.navigate.BackPressableFragment;
 
 import java.util.ArrayList;
 

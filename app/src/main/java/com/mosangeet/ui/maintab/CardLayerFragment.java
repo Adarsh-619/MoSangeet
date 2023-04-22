@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.maintab;
+package com.mosangeet.ui.maintab;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.ldt.musicr.ui.CardLayerController;
+import com.mosangeet.ui.CardLayerController;
 
 import java.util.ArrayList;
 

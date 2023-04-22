@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui.widget;
+package com.mosangeet.ui.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,11 +10,11 @@ import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.util.BitmapEditor;
-import com.ldt.musicr.coordinate.MCoordinate.MPoint;
+import com.mosangeet.R;
+import com.mosangeet.util.BitmapEditor;
+import com.mosangeet.coordinate.MCoordinate.MPoint;
 
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.util.Tool;
 
 /**
  * Created by trung on 12/2/2017.
