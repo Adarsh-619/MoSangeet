@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui;
+package com.mosangeet.ui;
 
 
 import android.animation.ArgbEvaluator;
@@ -21,11 +21,11 @@ import android.util.Log;
 import android.view.*;
 import android.widget.FrameLayout;
 
-import com.ldt.musicr.R;
-import com.ldt.musicr.ui.maintab.CardLayerFragment;
-import com.ldt.musicr.ui.widget.gesture.SwipeDetectorGestureListener;
-import com.ldt.musicr.util.InterpolatorUtil;
-import com.ldt.musicr.util.Tool;
+import com.mosangeet.R;
+import com.mosangeet.ui.maintab.CardLayerFragment;
+import com.mosangeet.ui.widget.gesture.SwipeDetectorGestureListener;
+import com.mosangeet.util.InterpolatorUtil;
+import com.mosangeet.util.Tool;
 
 import java.util.ArrayList;
 import java.util.NoSuchElementException;

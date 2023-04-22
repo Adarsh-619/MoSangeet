@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui;
+package com.mosangeet.ui;
 
 import android.Manifest;
 import android.content.Intent;
@@ -28,16 +28,16 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 
-import com.ldt.musicr.App;
-import com.ldt.musicr.R;
-import com.ldt.musicr.common.AppConfig;
-import com.ldt.musicr.service.MusicPlayerRemote;
-import com.ldt.musicr.service.MusicService;
-import com.ldt.musicr.ui.intro.IntroController;
-import com.ldt.musicr.ui.nowplaying.NowPlayingLayerFragment;
-import com.ldt.musicr.ui.playingqueue.PlayingQueueLayerFragment;
-import com.ldt.musicr.ui.maintab.BackStackController;
-import com.ldt.musicr.util.NavigationUtil;
+import com.mosangeet.App;
+import com.mosangeet.R;
+import com.mosangeet.common.AppConfig;
+import com.mosangeet.service.MusicPlayerRemote;
+import com.mosangeet.service.MusicService;
+import com.mosangeet.ui.intro.IntroController;
+import com.mosangeet.ui.nowplaying.NowPlayingLayerFragment;
+import com.mosangeet.ui.playingqueue.PlayingQueueLayerFragment;
+import com.mosangeet.ui.maintab.BackStackController;
+import com.mosangeet.util.NavigationUtil;
 
 
 public class AppActivity extends MusicServiceActivity {

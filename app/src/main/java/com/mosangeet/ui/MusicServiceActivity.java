@@ -1,4 +1,4 @@
-package com.ldt.musicr.ui;
+package com.mosangeet.ui;
 
 import android.annotation.TargetApi;
 import android.content.BroadcastReceiver;
@@ -17,14 +17,14 @@ import androidx.annotation.NonNull;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.ldt.musicr.helper.LocaleHelper;
-import com.ldt.musicr.helper.songpreview.SongPreviewController;
-import com.ldt.musicr.loader.medialoader.PaletteGenerator;
-import com.ldt.musicr.notification.GlobalEventBusMusicEventListener;
-import com.ldt.musicr.service.MusicPlayerRemote;
-import com.ldt.musicr.service.MusicServiceEventListener;
+import com.mosangeet.helper.LocaleHelper;
+import com.mosangeet.helper.songpreview.SongPreviewController;
+import com.mosangeet.loader.medialoader.PaletteGenerator;
+import com.mosangeet.notification.GlobalEventBusMusicEventListener;
+import com.mosangeet.service.MusicPlayerRemote;
+import com.mosangeet.service.MusicServiceEventListener;
 
-import com.ldt.musicr.service.MusicService;
+import com.mosangeet.service.MusicService;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
