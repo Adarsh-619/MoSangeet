@@ -1,21 +1,21 @@
-package com.ldt.musicr.loader.medialoader
+package com.mosangeet.loader.medialoader
 
 import android.content.Context
-import com.ldt.musicr.utils.ArtworkUtils.getBitmapRequestBuilder
+import com.mosangeet.utils.ArtworkUtils.getBitmapRequestBuilder
 import android.graphics.Bitmap
-import com.ldt.musicr.App
-import com.ldt.musicr.service.MusicPlayerRemote
+import com.mosangeet.App
+import com.mosangeet.service.MusicPlayerRemote
 import android.graphics.drawable.BitmapDrawable
 import androidx.core.content.res.ResourcesCompat
-import com.ldt.musicr.R
+import com.mosangeet.R
 import androidx.palette.graphics.Palette
-import com.ldt.musicr.provider.ColorProvider
+import com.mosangeet.provider.ColorProvider
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.graphics.Color
-import com.ldt.musicr.interactors.AppExecutors
-import com.ldt.musicr.util.BitmapEditor
-import com.ldt.musicr.util.Tool
+import com.mosangeet.interactors.AppExecutors
+import com.mosangeet.util.BitmapEditor
+import com.mosangeet.util.Tool
 import java.lang.Exception
 
 class PaletteGenerator {
@@ -163,7 +163,7 @@ class PaletteGenerator {
     }
 
     companion object {
-        const val PALETTE_CHANGED = "com.ldt.musicr.PALETTE_CHANGED"
+        const val PALETTE_CHANGED = "com.mosangeet.PALETTE_CHANGED"
         const val COLOR_ONE = "COLOR_ONE"
         const val COLOR_TWO = "COLOR_TWO"
         const val ALPHA_ONE = "ALPHA_ONE"

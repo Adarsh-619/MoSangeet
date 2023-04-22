@@ -118,7 +118,7 @@ public class Util {
         int mActionBarHeight;
         TypedValue mTypedValue = new TypedValue();
 
-        context.getTheme().resolveAttribute(R.attr.actionBarSize, mTypedValue, true);
+        context.getTheme().resolveAttribute(com.dtrung98.insetsview.R.attr.actionBarSize, mTypedValue, true);
 
         mActionBarHeight = TypedValue.complexToDimensionPixelSize(mTypedValue.data, context.getResources().getDisplayMetrics());
 

@@ -92,7 +92,7 @@ class SearchFragment: FloatingViewFragment(R.layout.screen_search_floating) {
         if (AppConfig.isSearchInterfaceByPassTouchEvent) {
             // Consumes tap event but not moving event
             val gestureListener = object : GestureDetector.SimpleOnGestureListener() {
-                override fun onSingleTapUp(e: MotionEvent?): Boolean {
+                fun onSingleTapUp(e: MotionEvent?): Boolean {
                     dismiss()
                     return true
                 }
