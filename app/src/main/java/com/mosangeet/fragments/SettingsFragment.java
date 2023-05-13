@@ -166,9 +166,8 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
 
         else if (id == R.id.refresh_options) {
             refreshMediaLibrary();
-        } else if (id == R.id.review_options) {
-            setUpRateReview();
         }
+
     }
 
     @Override
@@ -202,9 +201,5 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
     private void setAlbumRequest() {
         MPPreferences.storeAlbumRequest(requireActivity().getApplicationContext(), (!state));
         ThemeHelper.applySettings(getActivity());
-    }
-
-    private void setUpRateReview() {
-        startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse(MPConstants.PLAY_STORE_LINK)));
     }
 }
