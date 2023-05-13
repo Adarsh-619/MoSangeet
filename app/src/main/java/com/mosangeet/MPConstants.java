@@ -7,20 +7,20 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MPConstants {
-    public static final String PACKAGE_NAME = "com.atul.musicplayerlite";
+    public static final String PACKAGE_NAME = "com.mosangeet";
     public static final String DEBUG_TAG = "MPLite_debug";
-    public static final String GITHUB_REPO_URL = "https://github.com/AP-Atul/music_player_lite";
+    public static final String GITHUB_REPO_URL = "https://github.com/Adarsh-619/MoSangeet.git";
 
     public static final int PERMISSION_READ_STORAGE = 1009;
     public static final long TWENTY_SECONDS_IN_MS = 20000;
 
-    public static final String MEDIA_SESSION_TAG = "com.atul.musicplayerlite.MediaSession";
+    public static final String MEDIA_SESSION_TAG = "com.mosangeet.MediaSession";
 
     public static final int NOTIFICATION_ID = 101;
-    public static final String PLAY_PAUSE_ACTION = "com.atul.musicplayerlite.PLAYPAUSE";
-    public static final String NEXT_ACTION = "com.atul.musicplayerlite.NEXT";
-    public static final String PREV_ACTION = "com.atul.musicplayerlite.PREV";
-    public static final String CHANNEL_ID = "com.atul.musicplayerlite.CHANNEL_ID";
+    public static final String PLAY_PAUSE_ACTION = "com.mosangeet.PLAYPAUSE";
+    public static final String NEXT_ACTION = "com.mosangeet.NEXT";
+    public static final String PREV_ACTION = "com.mosangeet.PREV";
+    public static final String CHANNEL_ID = "com.mosangeet.CHANNEL_ID";
     public static final int REQUEST_CODE = 100;
 
     public static final float VOLUME_DUCK = 0.2f;
@@ -94,6 +94,6 @@ public class MPConstants {
     public static final int SORT_ALBUM_BY_TITLE = 0;
     public static final int SORT_ALBUM_BY_DURATION = 1;
     public static final int SORT_ALBUM_BY_SONGS = 2;
-    public static final String PLAY_STORE_LINK = "https://play.google.com/store/apps/details?id=com.atul.musicplayer";
+    public static final String PLAY_STORE_LINK = "NotPublishedYet";
     public static MusicSelectListener musicSelectListener;
 }
