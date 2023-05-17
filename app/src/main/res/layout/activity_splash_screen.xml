@@ -1,46 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/idRLContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DC2131"
+    android:background="#BBA5FF"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <!--on below line we are adding an image view-->
 
     <!--on below line we are creating progress bar-->
+
     <ImageView
         android:id="@+id/idIVLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="370dp"
-        android:layout_centerInParent="true"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+
         android:layout_marginStart="25dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="25dp"
-        android:src="@drawable/logv4" />
+        android:src="@drawable/subtitle" />
+
+    <ImageView
+        android:id="@+id/idIVLogo12"
+        android:layout_below="@id/idIVLogo"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+
+        android:layout_gravity="center"
+
+        android:layout_marginStart="25dp"
+
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/iconv1" />
 
     <ImageView
         android:id="@+id/idIVLogo1"
-        android:layout_below="@id/idIVLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="25dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/idIVLogo12"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="25dp"
         android:layout_marginBottom="25dp"
-        android:src="@drawable/dev" />
-
+        android:src="@drawable/text" />
 
     <ProgressBar
         android:id="@+id/idPBLoading"
+        android:layout_marginStart="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         android:layout_below="@id/idIVLogo1"
         android:layout_centerInParent="true"
-        android:indeterminateTint="#4FE11F" />
+        android:indeterminateTint="@color/white" />
 
-</RelativeLayout>
+</LinearLayout>

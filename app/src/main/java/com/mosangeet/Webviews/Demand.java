@@ -25,6 +25,8 @@ public class Demand extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
     }
 
+
+
     @Override
     public void onBackPressed() {
         if (webView.canGoBack()) {
