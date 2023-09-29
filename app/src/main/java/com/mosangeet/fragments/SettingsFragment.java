@@ -97,8 +97,6 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
         view.findViewById(R.id.night_chip).setOnClickListener(this);
         view.findViewById(R.id.light_chip).setOnClickListener(this);
         view.findViewById(R.id.auto_chip).setOnClickListener(this);
-
-
         setUpOptions();
 
         return view;
@@ -167,7 +165,6 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
         else if (id == R.id.refresh_options) {
             refreshMediaLibrary();
         }
-
     }
 
     @Override
